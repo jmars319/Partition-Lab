@@ -29,7 +29,7 @@ if (-not $DryRun -and -not $IUnderstandThisIsDestructive) {
     throw "Write mode requires -IUnderstandThisIsDestructive"
 }
 
-Write-PartitionLabLog $logFile "Partition Lab Windows destructive guard"
+Write-PartitionLabLog $logFile "tenra Partition Lab Windows destructive guard"
 Write-PartitionLabLog $logFile "target=$resolvedImage"
 Write-PartitionLabLog $logFile "increase_c=$IncreaseC"
 Write-PartitionLabLog $logFile "dry_run=$DryRun"

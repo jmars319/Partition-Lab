@@ -195,7 +195,7 @@ if [[ -e "$OUTPUT" && "$FORCE" -eq 0 ]]; then
   die "output already exists; use --force to replace it: $OUTPUT"
 fi
 
-log "Partition Lab image creation"
+log "tenra Partition Lab image creation"
 log "scenario=$SCENARIO"
 log "output=$OUTPUT"
 log "disk_size=$DISK_SIZE c_size=$C_SIZE e_size=$E_SIZE partition_table=$PARTITION_TABLE"

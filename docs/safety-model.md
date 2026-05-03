@@ -1,6 +1,6 @@
 # Safety Model
 
-Partition Lab is for disposable assets only.
+tenra Partition Lab is for disposable assets only.
 
 Default behavior is mock mode. Mock mode reads JSON fixtures and produces plans or verification reports without touching a disk image or block device.
 

@@ -1,6 +1,6 @@
-# Partition Lab
+# tenra Partition Lab
 
-Partition Lab is a destructive-testing harness for a future partition management app. It exists before the GUI app and does not try to be production software.
+tenra Partition Lab is a destructive-testing harness for a future partition management app. It exists before the GUI app and does not try to be production software.
 
 Windows compatibility is a Day 1 requirement. The primary script surface is PowerShell plus Python, and the primary real-image format on Windows is disposable VHDX under `test-images/`. Bash/Linux tooling is optional secondary support.
 
@@ -49,7 +49,7 @@ Not implemented yet:
 
 ## Safety Model
 
-Partition Lab defaults to mock JSON fixtures. The scripts must not operate on real physical disks by default.
+tenra Partition Lab defaults to mock JSON fixtures. The scripts must not operate on real physical disks by default.
 
 Guardrails:
 
